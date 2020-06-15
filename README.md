@@ -38,4 +38,4 @@
 ### ระบบการทำงาน 
 ![flowchart picture][flowchart]
 
-[flowchart]: https://github.com/chunthm/FarmPlot/blob/master/image/diagram.jpg "Diagram"
+[flowchart]: https://github.com/chunthm/Lucky-Aquarium/blob/master/image/diagram.jpg "Diagram"
