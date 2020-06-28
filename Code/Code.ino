@@ -79,7 +79,7 @@ void TemperatureSensor() {
     Serial.print(T);
     Serial.println(" C");
     if (T > 32) {
-        OLEDdisplay(1, "To Warm");
+        OLEDdisplay(1, "Too Warm");
         RGB(0, 255, 255);
     }
     else if (T >= 27 && T < 32) {
@@ -87,7 +87,7 @@ void TemperatureSensor() {
         RGB(0, 255, 0);
     }
     else {
-        OLEDdisplay(1, "To Cool");
+        OLEDdisplay(1, "Too Cool");
         RGB(255, 0, 255);
     }
     delay(1000);
